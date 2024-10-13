@@ -34,29 +34,24 @@ var lyricsData = [
   { text: "Love.", time: 140 },
 ];
 
-const imgData = [
-  { 
-    img: 'https://lh3.googleusercontent.com/pw/AP1GczOzr7sz0kuS-uMfthFWbY7o-nz9BL52vQhFcoVkpPiSXvXnJtbBvmrO2C4MiKyNUoi7b4wvJ80Qnw7_ksxEHrOiWL6duKeO6ui_pz5_CmrO1HoIecES-F0T8_HG_MnHjU9SBkOPWnrvLNJkeVO7cwvN=w986-h1315-s-no?authuser=0', time: 20,
-    img: '', time: 20,
-    img: '', time: 20,
-    img: '', time: 20,
-    img: '', time: 20,
-    img: '', time: 20,
-    img: '', time: 20,
 
-  }
-]
+
+const imgData = [
+  { time: 10, img: 'https://lh3.googleusercontent.com/pw/AP1GczPXPxMmkdonN-XBrZdNrFFKj9kuM8d3vF0se6J1pmDUU1fRASJalF9cmDWKzYsZY3GuUJB5dWqZZXZuQjd3V4qr3JjA_dHUO9rRqDaQYDIDEfh9Oj4AD0O9jUsN6Iia2v95vZQ8dmGpm0dO5zip34OT=w656-h875-s-no?authuser=0' },
+  { time: 20, img: 'https://lh3.googleusercontent.com/pw/AP1GczPauHq2tqZLQGrkYJ0rSH0VA088ozXRzo3fcF0DgKm99a6OirAU9fGwHjQqcLDMTIrvG2vn6lhfS_qpCAfxFrSO6o1vBfK9M8t8qv9Nl4-uAUj7G9CkvAl_OKdIlUhRVXBwqhJx-Cp2SDOMaoq8yXWt=w728-h971-s-no?authuser=0' }
+];
+
 // Animar las letras
 function updateLyrics() {
-  var time = Math.floor(audio.currentTime);
-  var currentLine = lyricsData.find(
+  let time = Math.floor(audio.currentTime);
+  let currentLine = lyricsData.find(
     (line) => time >= line.time && time < line.time + 6
   );
 
   if (currentLine) {
     // Calcula la opacidad basada en el tiempo en la línea actual
-    var fadeInDuration = 0.1; // Duración del efecto de aparición en segundos
-    var opacity = Math.min(1, (time - currentLine.time) / fadeInDuration);
+    let fadeInDuration = 0.1; // Duración del efecto de aparición en segundos
+    let opacity = Math.min(1, (time - currentLine.time) / fadeInDuration);
 
     // Aplica el efecto de aparición
     lyrics.style.opacity = opacity;
@@ -66,9 +61,39 @@ function updateLyrics() {
     lyrics.style.opacity = 0;
     lyrics.innerHTML = "";
   }
+  requestAnimationFrame(updateLyrics)
 }
+//setInterval(updateLyrics, 1000);
 
-setInterval(updateLyrics, 1000);
+
+    // Función para animar imágenes
+    const updateImagen = () => {
+      let time = Math.floor(audio.currentTime);
+
+      let currentImage = imgData.find(
+        (line) => time >= line.time && time < line.time + 6
+      );
+
+      if (currentImage) {
+        if (galery.src !== currentImage.img) {
+          galery.style.opacity = 0;
+          setTimeout(() => {
+            galery.src = currentImage.img;
+            galery.style.opacity = 1;
+          }, 500);
+        }
+      } else {
+        galery.style.opacity = 0;
+      }
+
+      requestAnimationFrame(updateImagen);
+    };
+
+    // Inicia la animación cuando el audio empiece
+    audio.addEventListener('play', () => {
+      requestAnimationFrame(updateLyrics);
+      requestAnimationFrame(updateImagen);
+    });
 
 //funcion titulo
 // Función para ocultar el título después de 216 segundos

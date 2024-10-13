@@ -1657,3 +1657,16 @@ h1 {
 }
 
 /* Agregar más estilos según sea necesario */
+#galery{
+  max-width: 50%;
+  opacity: 0.7;
+  position: fixed;
+  z-index: 1;
+  border-radius: 10%;  
+  transition: opacity 0.1 ease-in-out;
+  top: 100px;
+}
+@keyframes fadeOut {
+  0% { opacity: 0.7; }
+  100% { opacity: 0; }
+}
