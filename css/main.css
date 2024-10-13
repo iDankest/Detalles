@@ -397,7 +397,7 @@ body {
       transparent 1px,
       transparent 12px
     ),
-    linear-gradient(90deg, rgb(255, 235, 18), rgb(255, 206, 0));
+    linear-gradient(90deg, rgba(105, 8, 129, 0.486), rgb(138, 32, 165));
 }
 .flower__line {
   height: 55vmin;
