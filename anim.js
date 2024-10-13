@@ -37,8 +37,21 @@ var lyricsData = [
 
 
 const imgData = [
-  { time: 10, img: 'https://lh3.googleusercontent.com/pw/AP1GczPXPxMmkdonN-XBrZdNrFFKj9kuM8d3vF0se6J1pmDUU1fRASJalF9cmDWKzYsZY3GuUJB5dWqZZXZuQjd3V4qr3JjA_dHUO9rRqDaQYDIDEfh9Oj4AD0O9jUsN6Iia2v95vZQ8dmGpm0dO5zip34OT=w656-h875-s-no?authuser=0' },
-  { time: 20, img: 'https://lh3.googleusercontent.com/pw/AP1GczPauHq2tqZLQGrkYJ0rSH0VA088ozXRzo3fcF0DgKm99a6OirAU9fGwHjQqcLDMTIrvG2vn6lhfS_qpCAfxFrSO6o1vBfK9M8t8qv9Nl4-uAUj7G9CkvAl_OKdIlUhRVXBwqhJx-Cp2SDOMaoq8yXWt=w728-h971-s-no?authuser=0' }
+  { time: 10, img: 'https://lh3.googleusercontent.com/pw/AP1GczOzr7sz0kuS-uMfthFWbY7o-nz9BL52vQhFcoVkpPiSXvXnJtbBvmrO2C4MiKyNUoi7b4wvJ80Qnw7_ksxEHrOiWL6duKeO6ui_pz5_CmrO1HoIecES-F0T8_HG_MnHjU9SBkOPWnrvLNJkeVO7cwvN=w986-h1315-s-no?authuser=0' },
+  { time: 20, img: 'https://lh3.googleusercontent.com/pw/AP1GczPsskL7scGlrZL9gEc5Req-8EwOjKgtMNI3nRoInuGgJGrpdNgFSjqME3PktFF6fa0HyPcSTtoeK7RusGzBCcf0Fx-myxu65mbZbBnDiyZvD2-wHR-pfgZwFnG9nzNdgqPFsZPeVp9atNYgWv1oEZc1=w992-h1323-s-no?authuser=0' },
+  { time: 30, img: 'https://lh3.googleusercontent.com/pw/AP1GczP_lWaei4pAVYKLfVh91rTZU3-ADIEzaq0A1Wy5kwqiI9KccV_QzJarSQIa8o8rsEqJTiu4--benbP3OXUZ_Ag2yG2-9d0lMZHR0WkYogciamssb4TjjkJGfoBCPNy8RRFBJ-5BejR1FD1VALTzGktA=w992-h1323-s-no?authuser=0' },
+  { time: 40, img: 'https://lh3.googleusercontent.com/pw/AP1GczNqM6iVY0qnLSTVRUB2jZ7Nz7TvAjpxmVnbD4CrNx3-v-S2Y7UOyd5W5jNWZzMZbrbiAMm8UhNyCYXbx92RzJygIWaxC80aIEDhsPAPcEilFKmH2HSWW8bKmuF5sQMEbMht8bFrN_NDYgod8LjzLo5-=w991-h1323-s-no?authuser=0' },
+  { time: 50, img: 'https://lh3.googleusercontent.com/pw/AP1GczPR68ndvBXtBZl95vfidYvXhN7NPXD84t-v1BXUaUpFvtEV5IB3W70ndexxvS41kXCWhIX2MoSn75KmbzqDOjdm2qpje07twGRCyLQV-HPSYnwNjEJ8dmoHGdZLIDMSS9F36BLvzDAM9s79HyF7u_7l=w992-h1323-s-no?authuser=0' },
+  { time: 60, img: 'https://lh3.googleusercontent.com/pw/AP1GczPPizoY0Esit1yyO2Iuq_fFlDDaYydtYB-T4FnC_M_gH2J4S6C_iEJ1I-PNYmr_aK8z0fab7lqryu3udv4R7nXFxyp39NvUpFAJxC4A2sEUIYqWfoXaPattev1V9fKCG1OchE-EjJKFu6zjZumacYeL=w991-h1323-s-no?authuser=0' },
+  { time: 70, img: 'https://lh3.googleusercontent.com/pw/AP1GczPtGTYXic67c4ifgLGSMs6wchh_9scrhKlTXN69DTSXvDQ_VX26sTygUE_2nwROHF9lmRMnarNiSKJOT6SSNLy6j4HbQCXmCn9dgPp-OxH4YnA2lOWHK4fJQ0I_z5EOPuAf7_XoYN_firRB2xUf3SBZ=w992-h1323-s-no?authuser=0' },
+  { time: 90, img: 'https://lh3.googleusercontent.com/pw/AP1GczMjdRAxFzjctkAkwRfjf_ug1eR0MFiF7_FllluJbEiUoA6fvR_afzG8vaDW5ygB7B-78_0elV33p1CMbxIgx5irBx3x6nL3d6GbO2FBLUN2nncCSUOKYNIglSxvmlS3Xli-w2RYTJPgMN3NVkQ_NVc4=w992-h1323-s-no?authuser=0' },
+  { time: 100, img: 'https://lh3.googleusercontent.com/pw/AP1GczNnhWlQEuGSQ2FbhOfKpL_Of13Trry8oYLkh1WbMjpN1XYjzWKfpjJAL8SuxohoDQlywnfsKSHf2c74P8VPV4OC2UbxLbmUWYaA4rcfujjg6-Fc1Aj62K8LhlH4xrRbrHJ2gKpATRDf6sI__1HxY28K=w992-h1323-s-no?authuser=0' },
+  { time: 110, img: 'https://lh3.googleusercontent.com/pw/AP1GczOnNT216N56dvCYjwHftMfHwGvAmmuLlBQjlUfP9kPl_HLRmt67KXjHmYxwl9dtC3W1_XvHubsNP_F5lZQe7HAnKDBhUZqDoP4WXPkQVZf-hXTi18xRnmmQAlBo_9eVRCrThv-si1rhqf-ewCG8_Bfj=w993-h1323-s-no?authuser=0' },
+  { time: 120, img: 'https://lh3.googleusercontent.com/pw/AP1GczOcSUKO9vpAyKtQSpWCbPdHRqg5A2U1plzBgMhMCjc0HzPaw3irWyT_E1869aB187EVKrWyrokTRQxkrUoC6-ZqI_vRmvZzy_OpoSFGRThcIKEUCOjZUW8uMLseNi2PmpXC8bekfk-0diBeBDk6oXSW=w1001-h1335-s-no?authuser=0' },
+  { time: 130, img: 'https://lh3.googleusercontent.com/pw/AP1GczO6s5GM5Gkj9Cg0k1EV6B44yWi54q04L1h7m70HWAc-xcJmLDQBKrqT0gAeTa2Y5r_jbXYB4n4mbgkYFm3a0V3Po7PvpMCQI1YV7Kno7w9wYhibwhTUFeIO1AdvLGzJtOvVuDjq_TtDGi4jX8H9SGKE=w992-h1323-s-no?authuser=0' },
+  { time: 140, img: 'https://lh3.googleusercontent.com/pw/AP1GczMp7JhhVHsudc79yG5kmcD1GhbYDkVuYMAk1eXDjwHoftTSF8gGJZXfiRq5Z03gicXUUMLnIklxjl0NGFZjlGfbTCEbqzLPL7BYr9eM9vwmiqpCsuhsKqZjeWAqfmN0iu8BGvI95EfmgvtIkBfh_maR=w992-h1323-s-no?authuser=0' },
+  { time: 150, img: 'https://lh3.googleusercontent.com/pw/AP1GczMTOwoG52RBY65sXUxXIXCmaKUERFTSQfBL6VWk0eSwHtS_SDD7Ar45KAO8O8dWApLr0Umfjg9ftXIk5hgKS3jFZA79V5Wqp4isXvyTeFw61f6EH1FJo-L682eCE_Ir03xqGNqmVZH18nxxJJyaQA0c=w992-h1323-s-no?authuser=0' },
+  { time: 160, img: 'https://lh3.googleusercontent.com/pw/AP1GczNsCe1sHefWAA-7R6lTy4vN5Gq2K25i14RoVkQ1EdD6fyOaawyBb4P6m8N4G6JWXzVb2fbTWDcXhhsKLPvLEMAyxT8bRbBEahvOsHHys0qqinJX3ZG9Bo7MQjS0h9NRmNf3LujY3DDwQr4RK86pfWIy=w1247-h935-s-no?authuser=0' }
 ];
 
 // Animar las letras
@@ -79,7 +92,7 @@ function updateLyrics() {
           galery.style.opacity = 0;
           setTimeout(() => {
             galery.src = currentImage.img;
-            galery.style.opacity = 1;
+            galery.style.opacity = '0.7';
           }, 500);
         }
       } else {
