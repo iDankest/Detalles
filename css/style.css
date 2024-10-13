@@ -68,6 +68,21 @@ body{
 .greetings > span:nth-child(6){
     animation-delay: 1s;
 }
+.greetings > span:nth-child(7){
+    animation-delay: 1.2s;
+}
+.greetings > span:nth-child(8){
+    animation-delay: 1.4s;
+}
+.greetings > span:nth-child(9){
+    animation-delay: 1.6s;
+}
+.greetings > span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.greetings > span:nth-child(11){
+    animation-delay: 2s;
+}
 
 .description{
     font-size: 1.5rem;
@@ -83,12 +98,12 @@ body{
 @media screen and (max-width:574px){
     .greetings{
         display: block;
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-weight: 800;
         text-align: center;
     }
     .description{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .button a{
