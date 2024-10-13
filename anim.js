@@ -55,13 +55,13 @@ const imgData = [
   { text:'Que NUNCA FALTE LA GORDURA',time: 109, img: 'https://lh3.googleusercontent.com/pw/AP1GczMTOwoG52RBY65sXUxXIXCmaKUERFTSQfBL6VWk0eSwHtS_SDD7Ar45KAO8O8dWApLr0Umfjg9ftXIk5hgKS3jFZA79V5Wqp4isXvyTeFw61f6EH1FJo-L682eCE_Ir03xqGNqmVZH18nxxJJyaQA0c=w992-h1323-s-no?authuser=0' },
   { text:'ME dejaste hecho un cristo JAJAJA',time: 119, img: 'https://lh3.googleusercontent.com/pw/AP1GczNsCe1sHefWAA-7R6lTy4vN5Gq2K25i14RoVkQ1EdD6fyOaawyBb4P6m8N4G6JWXzVb2fbTWDcXhhsKLPvLEMAyxT8bRbBEahvOsHHys0qqinJX3ZG9Bo7MQjS0h9NRmNf3LujY3DDwQr4RK86pfWIy=w1247-h935-s-no?authuser=0' },
   { text:'¿No hay algo raro?',time: 139, img: 'https://lh3.googleusercontent.com/pw/AP1GczOXx05Lb-kRIxQiCLHh97IdrfVE2TN4zyqrmFLIDCFAb0PiJCLOgHc7p0_L6PcWSUnFc5dAf8hMYFrxPdzY36xmBmvEqmLGMisrWDDoahZblh5J1aLdSt7c9E7TDYjTZgrjdA47Q_-TXljOsHoEV2vP=w992-h1323-s-no?authuser=0' },
-  { text:'Buscando anilitos',time: 147, img: 'https://lh3.googleusercontent.com/pw/AP1GczPUgyF13XgNe58xCvixzGp-BnJs8ORJb6dyifWek-AQOW9m_tYqlIfHN5slVNRXTDAa_fv7oDF8m5VJHtQE5d73QV6Y4uIWC8DrmMLXdIuO9YlwYJ-WQRE6ZHi4mX_2wNa--2hbDuU8r1_V1tFKEJqs=w992-h1323-s-no?authuser=0' },
+  { text:'Buscando animalitos',time: 147, img: 'https://lh3.googleusercontent.com/pw/AP1GczPUgyF13XgNe58xCvixzGp-BnJs8ORJb6dyifWek-AQOW9m_tYqlIfHN5slVNRXTDAa_fv7oDF8m5VJHtQE5d73QV6Y4uIWC8DrmMLXdIuO9YlwYJ-WQRE6ZHi4mX_2wNa--2hbDuU8r1_V1tFKEJqs=w992-h1323-s-no?authuser=0' },
   { text:'Tu siempre cazando eventos',time: 158, img: 'https://lh3.googleusercontent.com/pw/AP1GczP15Tn2YJ6jrFa1KT1n70ttjyI2tsDffWhzdL3ujQ8SEXnTwF0D5PR1F-UYuRsMERFuy6Ptkwefp_V5klJ7gCeORPdXYM24OyaaFpKVDAzUHxi_8iBwC5J_QcGTs0IRxD95YidF8wZDAQ20VjtbJuMa=w1766-h1323-s-no?authuser=0' },
   { text:'Con el brazaco que te destroza',time: 169, img: 'https://lh3.googleusercontent.com/pw/AP1GczNNiMvasTprRVQkNufeRBHg3idp4Q2b5lgejOonzHM7eNNF-ruwMMnzHZwCqI6hLA8rfgTndKm2oWi1EbroCX9fIkDO5W2D-S3NBYlwgy6-W6c2RzUguVKzIxFy3y1gzzzP9bFFGhLKM-SGvGZ494eL=w992-h1323-s-no?authuser=0' },
   { text:'Ella sacando fotos a un super modelo',time: 176, img: 'https://lh3.googleusercontent.com/pw/AP1GczOqQqCtPA5MfYsB3usReYJinvJ5frAbvPLYknie42ntvcpg6UQVNC05WhHGbMUkd2tQ8mvgsVPvKdgge_MRQfv2kygAsGmliVWSNmcEiirehzg1kCRU9QFUe9BlqZ9Xrt7KftNh9-zMYAD1Nt-lokLR=w992-h1323-s-no?authuser=0' },
-  { text:'Nuestra devoción',time: 184, img: 'https://lh3.googleusercontent.com/pw/AP1GczN1SwzGSsbfj4IH9dH9-syg2sZfqYKiO7pzD1hX3MiyaCI1wabvKszEcpmBhj7TXS7PCflTK5PdT9SmoqWwRVkQSGiGquJeVHNvYGbmZomtxGxB-VXJHSZD0R3G6WFEaivhTOlXy40Z8dmN01Og149Z=w1920-h1080-s-no?authuser=0' },
-  { text:'Por mas',time: 186, img: 'https://lh3.googleusercontent.com/pw/AP1GczPqnfESiF0rrRQcwEHDe7k2HcVcMV4QzZ54sMJWjG_a8nndaQJF7HRqqG0tr3NF-ae3G6OT9CT2Q2K9kWeIuNqwmewGFNB74y9EmS2sas3IdNTZ4iYSvH7zbo6X014j3024vbEha6Rt1boasyvH7uFz=w992-h1323-s-no?authuser=0' },
-  { text:'Ezquizooo',time: 188, img: 'https://lh3.googleusercontent.com/pw/AP1GczN-xWVfu63XFiWI-QjZXMZ0FNj8P3S7zzweJUw-x97wyXq5LNoK7EWlVXXrbFk7T-3YCC60m3Tkbmz1Qiv7qaXfswfBIPvirZsxChI9sAVRZs6tD3Stv7K_-62Vd3AsD0EaVQDgSPtjpDcUaOkuw1pM=w992-h1323-s-no?authuser=0' },
+  { text:'Nuestra devoción',time: 180, img: 'https://lh3.googleusercontent.com/pw/AP1GczN1SwzGSsbfj4IH9dH9-syg2sZfqYKiO7pzD1hX3MiyaCI1wabvKszEcpmBhj7TXS7PCflTK5PdT9SmoqWwRVkQSGiGquJeVHNvYGbmZomtxGxB-VXJHSZD0R3G6WFEaivhTOlXy40Z8dmN01Og149Z=w1920-h1080-s-no?authuser=0' },
+  { text:'Por mas',time: 183, img: 'https://lh3.googleusercontent.com/pw/AP1GczPqnfESiF0rrRQcwEHDe7k2HcVcMV4QzZ54sMJWjG_a8nndaQJF7HRqqG0tr3NF-ae3G6OT9CT2Q2K9kWeIuNqwmewGFNB74y9EmS2sas3IdNTZ4iYSvH7zbo6X014j3024vbEha6Rt1boasyvH7uFz=w992-h1323-s-no?authuser=0' },
+  { text:'Ezquizooo!',time: 187, img: 'https://lh3.googleusercontent.com/pw/AP1GczN-xWVfu63XFiWI-QjZXMZ0FNj8P3S7zzweJUw-x97wyXq5LNoK7EWlVXXrbFk7T-3YCC60m3Tkbmz1Qiv7qaXfswfBIPvirZsxChI9sAVRZs6tD3Stv7K_-62Vd3AsD0EaVQDgSPtjpDcUaOkuw1pM=w992-h1323-s-no?authuser=0' },
   
 ];
 
@@ -146,4 +146,4 @@ function ocultarTitulo() {
 }
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
-setTimeout(ocultarTitulo, 216000);
+setTimeout(ocultarTitulo, 202000);
