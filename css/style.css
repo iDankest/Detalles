@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: black;
     /* padding-top: -30; */
 }
@@ -88,6 +88,9 @@ body{
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
+p{
+    font-size: 1em;
+}
 
 .button a{
     text-decoration: none;
@@ -98,15 +101,28 @@ body{
 @media screen and (max-width:574px){
     .greetings{
         display: block;
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         font-weight: 800;
         text-align: center;
     }
     .description{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     
     .button a{
         font-size: 1rem;
     }
+    p{
+        font-size: 0.6rem;
+    }
+}
+.cosas{
+
+    background-image: url(/img/laiameodia.webp);
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+    border: #fff 3px solid;
+    border-radius: 10%;
+
 }
