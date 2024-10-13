@@ -17,28 +17,20 @@ body {
   height: 100vh;
   background-color: var(--dark-color);
   overflow: hidden;
-  perspective: 1000px;
+  perspective: 900px;
 }
 
 #lyrics {
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
-  position: absolute;
-  margin-bottom: 20%;
+  /* position: absolute; */
+  /* margin-bottom: 20%; */
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
 }
-@media only screen and (max-width: 600px) {
-  /* Estilos específicos para dispositivos con un ancho máximo de 600px */
-  #lyrics {
-      font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 530px;
-      letter-spacing: 3px;
-  }
 
-}
 .titulo {
   margin-bottom: 180px;
   font-family: "Arial Narrow", Arial, sans-serif;
@@ -1640,6 +1632,14 @@ h1 {
   h1 {
       font-size: 1.5em;
   }
+
+    #lyrics {
+        font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
+
+        letter-spacing: 3px;
+    }
+  
+  
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -1659,7 +1659,7 @@ h1 {
 /* Agregar más estilos según sea necesario */
 #galery {
   max-width: 50%;
-  position: fixed;
+/*   position: fixed; */
   z-index: 1;
   border-radius: 10%;  
   transition: opacity 0.1s ease-in-out;
@@ -1671,3 +1671,14 @@ h1 {
   100% { opacity: 0; }
 }
 
+.contendor{
+  margin-top: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  top: 10px;
+  gap: 2em;
+}
