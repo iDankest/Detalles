@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
@@ -1663,7 +1663,7 @@ h1 {
   z-index: 1;
   border-radius: 10%;  
   transition: opacity 0.1s ease-in-out;
-  top: 100px;
+  top: 40px;
 }
 
 @keyframes fadeOut {
