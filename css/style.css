@@ -115,8 +115,7 @@ p{
     p{
         font-size: 0.6rem;
     }
-}
-.cosas{
+    .cosas{
 
     background-image: url(/img/laiameodia.webp);
     background-size: cover;
@@ -125,4 +124,5 @@ p{
     border: #fff 3px solid;
     border-radius: 10%;
 
+}
 }
