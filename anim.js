@@ -1,6 +1,7 @@
 // Sincronizar las letras con la canción
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
+let galery = document.querySelector("#galery")
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
@@ -34,8 +35,15 @@ var lyricsData = [
 ];
 
 const imgData = [
-  { img: 'https://lh3.googleusercontent.com/pw/AP1GczOzr7sz0kuS-uMfthFWbY7o-nz9BL52vQhFcoVkpPiSXvXnJtbBvmrO2C4MiKyNUoi7b4wvJ80Qnw7_ksxEHrOiWL6duKeO6ui_pz5_CmrO1HoIecES-F0T8_HG_MnHjU9SBkOPWnrvLNJkeVO7cwvN=w986-h1315-s-no?authuser=0', time: 20,
-    
+  { 
+    img: 'https://lh3.googleusercontent.com/pw/AP1GczOzr7sz0kuS-uMfthFWbY7o-nz9BL52vQhFcoVkpPiSXvXnJtbBvmrO2C4MiKyNUoi7b4wvJ80Qnw7_ksxEHrOiWL6duKeO6ui_pz5_CmrO1HoIecES-F0T8_HG_MnHjU9SBkOPWnrvLNJkeVO7cwvN=w986-h1315-s-no?authuser=0', time: 20,
+    img: '', time: 20,
+    img: '', time: 20,
+    img: '', time: 20,
+    img: '', time: 20,
+    img: '', time: 20,
+    img: '', time: 20,
+
   }
 ]
 // Animar las letras
