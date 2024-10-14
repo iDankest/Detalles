@@ -97,7 +97,7 @@ body {
 
 .flowers {
   position: relative;
-  transform: scale(0.9);
+  transform: scale(0.8);
   /*margin-bottom: 100px;
   */
 }
@@ -1715,4 +1715,7 @@ h1 {
   color: white;
   font-size: 1.5em;
   font-weight: bold;
+}
+#lyrics{
+  text-align: center;
 }
