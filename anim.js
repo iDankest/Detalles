@@ -69,6 +69,7 @@ const imgData = [
   { text:'Nuestra devoción',time: 115, img: 'https://lh3.googleusercontent.com/pw/AP1GczN1SwzGSsbfj4IH9dH9-syg2sZfqYKiO7pzD1hX3MiyaCI1wabvKszEcpmBhj7TXS7PCflTK5PdT9SmoqWwRVkQSGiGquJeVHNvYGbmZomtxGxB-VXJHSZD0R3G6WFEaivhTOlXy40Z8dmN01Og149Z=w1920-h1080-s-no?authuser=0' },
   { text:'Por mas',time: 120, img: 'https://lh3.googleusercontent.com/pw/AP1GczPqnfESiF0rrRQcwEHDe7k2HcVcMV4QzZ54sMJWjG_a8nndaQJF7HRqqG0tr3NF-ae3G6OT9CT2Q2K9kWeIuNqwmewGFNB74y9EmS2sas3IdNTZ4iYSvH7zbo6X014j3024vbEha6Rt1boasyvH7uFz=w992-h1323-s-no?authuser=0' },
   { text:'Ezquizooo!',time: 125, img: 'https://lh3.googleusercontent.com/pw/AP1GczN-xWVfu63XFiWI-QjZXMZ0FNj8P3S7zzweJUw-x97wyXq5LNoK7EWlVXXrbFk7T-3YCC60m3Tkbmz1Qiv7qaXfswfBIPvirZsxChI9sAVRZs6tD3Stv7K_-62Vd3AsD0EaVQDgSPtjpDcUaOkuw1pM=w992-h1323-s-no?authuser=0' },
+  { text:'Llevaba siempre una chaqueta extra',time: 30, img: 'https://lh3.googleusercontent.com/pw/AP1GczOPCvInDEG5-3dEku2cNJHmb0n-nvUZHWCEn6Lpvj-XY0Spw5p1RCuAgegPxOPdkp5SpV6Sqe12HIA_JyZFaRWtctFkfxOaGy84G-_4zjYUY5M3CDbJCRtXrGSJKAfIToNxFNKDH98GAuhDKLMSvFKp=w722-h963-s-no?authuser=0' }
   
 ];
 

@@ -1705,7 +1705,6 @@ h1 {
 }
 
 #final{
-  height: 65vh;
   display: none;
   flex-direction: column;
   justify-content: flex-start;
