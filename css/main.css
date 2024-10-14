@@ -1705,9 +1705,10 @@ h1 {
 }
 
 #final{
+  height: 65vh;
   display: none;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 #final p{
